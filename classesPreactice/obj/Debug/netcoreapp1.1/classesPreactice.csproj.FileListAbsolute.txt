@@ -1,0 +1,8 @@
+/home/chief/Desktop/CodingDojo/c#/classesPreactice/bin/Debug/netcoreapp1.1/classesPreactice.deps.json
+/home/chief/Desktop/CodingDojo/c#/classesPreactice/bin/Debug/netcoreapp1.1/classesPreactice.runtimeconfig.json
+/home/chief/Desktop/CodingDojo/c#/classesPreactice/bin/Debug/netcoreapp1.1/classesPreactice.runtimeconfig.dev.json
+/home/chief/Desktop/CodingDojo/c#/classesPreactice/bin/Debug/netcoreapp1.1/classesPreactice.dll
+/home/chief/Desktop/CodingDojo/c#/classesPreactice/bin/Debug/netcoreapp1.1/classesPreactice.pdb
+/home/chief/Desktop/CodingDojo/c#/classesPreactice/obj/Debug/netcoreapp1.1/classesPreactice.AssemblyInfo.cs
+/home/chief/Desktop/CodingDojo/c#/classesPreactice/obj/Debug/netcoreapp1.1/classesPreactice.dll
+/home/chief/Desktop/CodingDojo/c#/classesPreactice/obj/Debug/netcoreapp1.1/classesPreactice.pdb
