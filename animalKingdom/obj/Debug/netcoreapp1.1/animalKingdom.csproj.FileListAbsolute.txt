@@ -1,0 +1,8 @@
+/home/chief/Desktop/CodingDojo/c#/animalKingdom/bin/Debug/netcoreapp1.1/animalKingdom.deps.json
+/home/chief/Desktop/CodingDojo/c#/animalKingdom/bin/Debug/netcoreapp1.1/animalKingdom.runtimeconfig.json
+/home/chief/Desktop/CodingDojo/c#/animalKingdom/bin/Debug/netcoreapp1.1/animalKingdom.runtimeconfig.dev.json
+/home/chief/Desktop/CodingDojo/c#/animalKingdom/bin/Debug/netcoreapp1.1/animalKingdom.dll
+/home/chief/Desktop/CodingDojo/c#/animalKingdom/bin/Debug/netcoreapp1.1/animalKingdom.pdb
+/home/chief/Desktop/CodingDojo/c#/animalKingdom/obj/Debug/netcoreapp1.1/animalKingdom.AssemblyInfo.cs
+/home/chief/Desktop/CodingDojo/c#/animalKingdom/obj/Debug/netcoreapp1.1/animalKingdom.dll
+/home/chief/Desktop/CodingDojo/c#/animalKingdom/obj/Debug/netcoreapp1.1/animalKingdom.pdb
