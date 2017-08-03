@@ -1,36 +1,57 @@
+using System;
 using System.Collections.Generic;
 
 namespace DeckofCards
 {
     public class Deck
     {
-        List<Card> cards;
-        public Deck();
-        {
-            reset();
-            shuffle();
-        }
+        public List<Card> cards = new List<Card>();
+        public string[] suits = {"hearts", "diamonds", "spades", "clubs"};
+        public string[] strVals = {"Ace", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "jack", "queen", "king"};
 
-        public Deck reset()
+        public Deck()
         {
-            cards = new List<Card>();
-            string[] suits = {"hearts", "diamonds", "spades", "clubs"};
-            string[] strVals = {"Ace", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "jack", "queen", "king"};
-            foreach(string Suit in suits)
+            for (int a = 0; a < suits.Length; a++)
             {
-                for (int i = 0; i<strVals.Length; i++)
+                for (int h = 0; h < strVals.Length; h++)
                 {
-                    Card Foo = new Card(strVals[i], Suit, i+1);
-                    cards.Add(Foo);
-                
+                    Card newCard = new Card(strVals[h], suits[a], h+1);
+                    
+                    cards.Add(newCard);
                 }
             }
-            return this;
+            System.Console.WriteLine(cards);
         }
-    }
-    public Deck shuffle()
-    {
-        cards = new List<Card>();
-
+        public Card dealCard()
+        {
+            Card dealtCard = cards[0];
+            cards.RemoveAt(0);
+            return dealtCard;
+        }
+        
+        public void resetDeck()
+        {
+            cards = new List<Card>();
+            for (int n = 0; n < strVals.Length; n++)
+            {
+                for (int m = 0; m < suits.Length; m++)
+                {
+                    Card newCard = new Card(strVals[n], suits[m], n+1);
+                    cards.Add(newCard);
+                }
+            }
+        }
+        public void shuffleDeck()
+        {
+            Random rand = new Random();
+            for (int i = 0; i < cards.Count; i++)
+            {
+                Card temp = cards[i];
+                int rando = rand.Next(0, cards.Count);
+                cards[i] = cards[rando];
+                cards[rando] = temp;
+            }
+            System.Console.Write("shuffle");
+        }
     }
 }

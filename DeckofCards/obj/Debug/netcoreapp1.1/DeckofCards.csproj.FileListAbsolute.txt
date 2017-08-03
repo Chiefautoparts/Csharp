@@ -2,3 +2,7 @@
 /home/chief/Desktop/CodingDojo/c#/DeckofCards/bin/Debug/netcoreapp1.1/DeckofCards.runtimeconfig.json
 /home/chief/Desktop/CodingDojo/c#/DeckofCards/bin/Debug/netcoreapp1.1/DeckofCards.runtimeconfig.dev.json
 /home/chief/Desktop/CodingDojo/c#/DeckofCards/obj/Debug/netcoreapp1.1/DeckofCards.AssemblyInfo.cs
+/home/chief/Desktop/CodingDojo/c#/DeckofCards/bin/Debug/netcoreapp1.1/DeckofCards.dll
+/home/chief/Desktop/CodingDojo/c#/DeckofCards/bin/Debug/netcoreapp1.1/DeckofCards.pdb
+/home/chief/Desktop/CodingDojo/c#/DeckofCards/obj/Debug/netcoreapp1.1/DeckofCards.dll
+/home/chief/Desktop/CodingDojo/c#/DeckofCards/obj/Debug/netcoreapp1.1/DeckofCards.pdb
