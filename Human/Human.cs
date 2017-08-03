@@ -11,18 +11,18 @@ public class Human
         public Human(string person)
         {
             name = person;
-            health = 100;
             strength = 3;
             intelligence = 3;
             dexterity = 3;
+            health = 100;
         }
-        public Human(string person, int hp, int str, int intl, int dex)
+        public Human(string person, int str, int intl, int dex, int hp)
         {
             name = person;
-            health = hp;
             strength = str;
             intelligence = intl;
             dexterity = dex;
+            health = hp;
         }
         public void Attack(object obj)
         {
