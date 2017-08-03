@@ -6,8 +6,9 @@ namespace DeckofCards
     {
         static void Main(string[] args)
         {
-            Card jon = new Card("jon", "black", 1);
-            System.Console.WriteLine(jon.val);
+            Deck deckUno = new Deck();
+            Player doug = new Player("doug");
+            Console.WriteLine(deckUno);
         }
     }
 }

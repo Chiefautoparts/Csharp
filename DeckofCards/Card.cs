@@ -1,5 +1,4 @@
-namespace DeckofCards
-{
+namespace DeckofCards{
     public class Card
     {
         string  strVal;
