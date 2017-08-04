@@ -21,9 +21,9 @@ namespace Human
         {
             health = 200;
         }
-        public static void how_many()
-        {
-            Console.WriteLine(count);
-        }
+        // public static void how_many()
+        // {
+        //     Console.WriteLine(count);
+        // }
     }
 }
