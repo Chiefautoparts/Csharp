@@ -1,13 +1,12 @@
 ﻿using System;
 
-namespace Human
+namespace RPG
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string InputLine = Console.ReadLine();
+            Console.WriteLine("Hello World!");
         }
     }
-
 }
