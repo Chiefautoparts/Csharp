@@ -27,7 +27,7 @@ namespace DbConnection
                     command.CommandText = queryString;
                     dbConnection.Open();
                     var result = new List<Dictionary<string, object>>();
-                    using(IDataReader rdr = command.ExcuteReader())
+                    using(IDataReader rdr = command.ExecuteReader())
                     {
                         while(rdr.Read())
                         {
