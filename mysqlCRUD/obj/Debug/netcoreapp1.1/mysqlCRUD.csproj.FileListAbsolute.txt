@@ -1,0 +1,4 @@
+/home/chieftaco/Desktop/CodingDojo/c#/mysqlCRUD/bin/Debug/netcoreapp1.1/mysqlCRUD.deps.json
+/home/chieftaco/Desktop/CodingDojo/c#/mysqlCRUD/bin/Debug/netcoreapp1.1/mysqlCRUD.runtimeconfig.json
+/home/chieftaco/Desktop/CodingDojo/c#/mysqlCRUD/bin/Debug/netcoreapp1.1/mysqlCRUD.runtimeconfig.dev.json
+/home/chieftaco/Desktop/CodingDojo/c#/mysqlCRUD/obj/Debug/netcoreapp1.1/mysqlCRUD.AssemblyInfo.cs
