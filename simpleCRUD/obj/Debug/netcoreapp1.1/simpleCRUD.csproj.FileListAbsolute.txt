@@ -1,0 +1,4 @@
+/home/chieftaco/Desktop/CodingDojo/c#/simpleCRUD/bin/Debug/netcoreapp1.1/simpleCRUD.deps.json
+/home/chieftaco/Desktop/CodingDojo/c#/simpleCRUD/bin/Debug/netcoreapp1.1/simpleCRUD.runtimeconfig.json
+/home/chieftaco/Desktop/CodingDojo/c#/simpleCRUD/bin/Debug/netcoreapp1.1/simpleCRUD.runtimeconfig.dev.json
+/home/chieftaco/Desktop/CodingDojo/c#/simpleCRUD/obj/Debug/netcoreapp1.1/simpleCRUD.AssemblyInfo.cs
