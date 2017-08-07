@@ -7,10 +7,10 @@ namespace DbConnection
     public class DbConnector
     {
         static string server = "localhost";
-        static string db = "consoleDb";
+        static string db = "consoleDB";
         static string port = "3306";
         static string user = "root";
-        static string pass  = "root";
+        static string pass  = "Penguins1";
         internal static IDbConnection Connection 
         {
             get {

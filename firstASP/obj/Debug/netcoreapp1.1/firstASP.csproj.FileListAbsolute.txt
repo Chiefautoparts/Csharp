@@ -1,0 +1,8 @@
+/home/chieftaco/Desktop/CodingDojo/c#/firstASP/bin/Debug/netcoreapp1.1/firstASP.deps.json
+/home/chieftaco/Desktop/CodingDojo/c#/firstASP/bin/Debug/netcoreapp1.1/firstASP.runtimeconfig.json
+/home/chieftaco/Desktop/CodingDojo/c#/firstASP/bin/Debug/netcoreapp1.1/firstASP.runtimeconfig.dev.json
+/home/chieftaco/Desktop/CodingDojo/c#/firstASP/bin/Debug/netcoreapp1.1/firstASP.dll
+/home/chieftaco/Desktop/CodingDojo/c#/firstASP/bin/Debug/netcoreapp1.1/firstASP.pdb
+/home/chieftaco/Desktop/CodingDojo/c#/firstASP/obj/Debug/netcoreapp1.1/firstASP.AssemblyInfo.cs
+/home/chieftaco/Desktop/CodingDojo/c#/firstASP/obj/Debug/netcoreapp1.1/firstASP.dll
+/home/chieftaco/Desktop/CodingDojo/c#/firstASP/obj/Debug/netcoreapp1.1/firstASP.pdb

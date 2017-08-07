@@ -1,0 +1,8 @@
+/home/chieftaco/Desktop/CodingDojo/c#/Collections/bin/Debug/netcoreapp1.1/Collections.deps.json
+/home/chieftaco/Desktop/CodingDojo/c#/Collections/bin/Debug/netcoreapp1.1/Collections.runtimeconfig.json
+/home/chieftaco/Desktop/CodingDojo/c#/Collections/bin/Debug/netcoreapp1.1/Collections.runtimeconfig.dev.json
+/home/chieftaco/Desktop/CodingDojo/c#/Collections/bin/Debug/netcoreapp1.1/Collections.dll
+/home/chieftaco/Desktop/CodingDojo/c#/Collections/bin/Debug/netcoreapp1.1/Collections.pdb
+/home/chieftaco/Desktop/CodingDojo/c#/Collections/obj/Debug/netcoreapp1.1/Collections.AssemblyInfo.cs
+/home/chieftaco/Desktop/CodingDojo/c#/Collections/obj/Debug/netcoreapp1.1/Collections.dll
+/home/chieftaco/Desktop/CodingDojo/c#/Collections/obj/Debug/netcoreapp1.1/Collections.pdb
