@@ -7,10 +7,10 @@ namespace DbConnection
     public class DbConnector
     {
         static string server = "localhost";
-        static string db = "consoleDb";
+        static string db = "consoleDB";
         static string port = "3306";
         static string user = "root";
-        static string pass  = "root";
+        static string pass  = "Penguins1";
         internal static IDbConnection Connection 
         {
             get {
@@ -27,7 +27,7 @@ namespace DbConnection
                     command.CommandText = queryString;
                     dbConnection.Open();
                     var result = new List<Dictionary<string, object>>();
-                    using(IDataReader rdr = command.ExcuteReader())
+                    using(IDataReader rdr = command.ExecuteReader())
                     {
                         while(rdr.Read())
                         {
