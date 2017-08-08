@@ -1,0 +1,8 @@
+/home/chieftaco/Desktop/CodingDojo/c#/displayTime/bin/Debug/netcoreapp1.1/displayTime.deps.json
+/home/chieftaco/Desktop/CodingDojo/c#/displayTime/bin/Debug/netcoreapp1.1/displayTime.runtimeconfig.json
+/home/chieftaco/Desktop/CodingDojo/c#/displayTime/bin/Debug/netcoreapp1.1/displayTime.runtimeconfig.dev.json
+/home/chieftaco/Desktop/CodingDojo/c#/displayTime/obj/Debug/netcoreapp1.1/displayTime.AssemblyInfo.cs
+/home/chieftaco/Desktop/CodingDojo/c#/displayTime/bin/Debug/netcoreapp1.1/displayTime.dll
+/home/chieftaco/Desktop/CodingDojo/c#/displayTime/bin/Debug/netcoreapp1.1/displayTime.pdb
+/home/chieftaco/Desktop/CodingDojo/c#/displayTime/obj/Debug/netcoreapp1.1/displayTime.dll
+/home/chieftaco/Desktop/CodingDojo/c#/displayTime/obj/Debug/netcoreapp1.1/displayTime.pdb
