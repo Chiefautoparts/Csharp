@@ -9585,16 +9585,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/chief/Desktop/CodingDojo/c#/firstASP/firstASP.csproj",
-      "projectName": "firstASP",
-      "projectPath": "/home/chief/Desktop/CodingDojo/c#/firstASP/firstASP.csproj",
-      "outputPath": "/home/chief/Desktop/CodingDojo/c#/firstASP/obj/",
+      "projectUniqueName": "/home/chief/Desktop/CodingDojo/c#/surbey/surbey.csproj",
+      "projectName": "surbey",
+      "projectPath": "/home/chief/Desktop/CodingDojo/c#/surbey/surbey.csproj",
+      "outputPath": "/home/chief/Desktop/CodingDojo/c#/surbey/obj/",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/firstASP.dll": "/home/chief/Desktop/CodingDojo/c#/firstASP/bin/placeholder/netcoreapp1.1/firstASP.dll"
+        "lib/netcoreapp1.1/surbey.dll": "/home/chief/Desktop/CodingDojo/c#/surbey/bin/placeholder/netcoreapp1.1/surbey.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {
