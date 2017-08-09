@@ -6,3 +6,11 @@
 /home/chieftaco/Desktop/CodingDojo/c#/firstASP/obj/Debug/netcoreapp1.1/firstASP.AssemblyInfo.cs
 /home/chieftaco/Desktop/CodingDojo/c#/firstASP/obj/Debug/netcoreapp1.1/firstASP.dll
 /home/chieftaco/Desktop/CodingDojo/c#/firstASP/obj/Debug/netcoreapp1.1/firstASP.pdb
+/home/chief/Desktop/CodingDojo/c#/firstASP/bin/Debug/netcoreapp1.1/firstASP.deps.json
+/home/chief/Desktop/CodingDojo/c#/firstASP/bin/Debug/netcoreapp1.1/firstASP.runtimeconfig.json
+/home/chief/Desktop/CodingDojo/c#/firstASP/bin/Debug/netcoreapp1.1/firstASP.runtimeconfig.dev.json
+/home/chief/Desktop/CodingDojo/c#/firstASP/bin/Debug/netcoreapp1.1/firstASP.dll
+/home/chief/Desktop/CodingDojo/c#/firstASP/bin/Debug/netcoreapp1.1/firstASP.pdb
+/home/chief/Desktop/CodingDojo/c#/firstASP/obj/Debug/netcoreapp1.1/firstASP.AssemblyInfo.cs
+/home/chief/Desktop/CodingDojo/c#/firstASP/obj/Debug/netcoreapp1.1/firstASP.dll
+/home/chief/Desktop/CodingDojo/c#/firstASP/obj/Debug/netcoreapp1.1/firstASP.pdb

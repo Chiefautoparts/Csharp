@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.1",
-    "signature": "2126d94a3cfd024d5823bf0ef41d7e6224322f7f"
+    "signature": "04825b0298dbb515e35014b31e386995d55444b6"
   },
   "compilationOptions": {
     "defines": [
@@ -21,18 +21,19 @@
   },
   "targets": {
     ".NETCoreApp,Version=v1.1": {
-      "firstasp/1.0.0": {
+      "dojodachi/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore": "1.1.2",
           "Microsoft.AspNetCore.Mvc": "1.1.3",
           "Microsoft.AspNetCore.Session": "1.1.2",
+          "Microsoft.AspNetCore.StaticFiles": "1.1.2",
           "Microsoft.NETCore.App": "1.1.2"
         },
         "runtime": {
-          "firstASP.dll": {}
+          "Dojodachi.dll": {}
         },
         "compile": {
-          "firstASP.dll": {}
+          "Dojodachi.dll": {}
         }
       },
       "microsoft.aspnetcore/1.1.2": {
@@ -657,6 +658,22 @@
         },
         "compile": {
           "lib/netstandard1.3/Microsoft.AspNetCore.Session.dll": {}
+        }
+      },
+      "microsoft.aspnetcore.staticfiles/1.1.2": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "1.1.2",
+          "Microsoft.AspNetCore.Http.Extensions": "1.1.2",
+          "Microsoft.Extensions.FileProviders.Abstractions": "1.1.1",
+          "Microsoft.Extensions.Logging.Abstractions": "1.1.2",
+          "Microsoft.Extensions.WebEncoders": "1.1.2",
+          "NETStandard.Library": "1.6.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.AspNetCore.StaticFiles.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.AspNetCore.StaticFiles.dll": {}
         }
       },
       "microsoft.aspnetcore.webutilities/1.1.2": {
@@ -2896,7 +2913,7 @@
     }
   },
   "libraries": {
-    "firstasp/1.0.0": {
+    "dojodachi/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -3180,6 +3197,13 @@
       "sha512": "sha512-QhsMcB7/aTZ4bR1DdAVitD7ySIUHLOhsZi/3SQu8CoiGpof3BsDQywTmUxnrdEaxRdiICKV8a6/IzLa178JJKQ==",
       "path": "microsoft.aspnetcore.session/1.1.2",
       "hashPath": "microsoft.aspnetcore.session.1.1.2.nupkg.sha512"
+    },
+    "microsoft.aspnetcore.staticfiles/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IwOFoSKp+nw429aFK4WdRUVPkHtQdMQ3x+0k32yKOWg2rHTUim+ixdSWyeCmTH4spukPFZhqLx9OtmeHur87lw==",
+      "path": "microsoft.aspnetcore.staticfiles/1.1.2",
+      "hashPath": "microsoft.aspnetcore.staticfiles.1.1.2.nupkg.sha512"
     },
     "microsoft.aspnetcore.webutilities/1.1.2": {
       "type": "package",

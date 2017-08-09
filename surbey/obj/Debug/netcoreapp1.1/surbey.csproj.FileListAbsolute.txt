@@ -1,0 +1,8 @@
+/home/chief/Desktop/CodingDojo/c#/surbey/bin/Debug/netcoreapp1.1/surbey.deps.json
+/home/chief/Desktop/CodingDojo/c#/surbey/bin/Debug/netcoreapp1.1/surbey.runtimeconfig.json
+/home/chief/Desktop/CodingDojo/c#/surbey/bin/Debug/netcoreapp1.1/surbey.runtimeconfig.dev.json
+/home/chief/Desktop/CodingDojo/c#/surbey/obj/Debug/netcoreapp1.1/surbey.AssemblyInfo.cs
+/home/chief/Desktop/CodingDojo/c#/surbey/bin/Debug/netcoreapp1.1/surbey.dll
+/home/chief/Desktop/CodingDojo/c#/surbey/bin/Debug/netcoreapp1.1/surbey.pdb
+/home/chief/Desktop/CodingDojo/c#/surbey/obj/Debug/netcoreapp1.1/surbey.dll
+/home/chief/Desktop/CodingDojo/c#/surbey/obj/Debug/netcoreapp1.1/surbey.pdb
