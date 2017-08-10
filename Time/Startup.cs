@@ -16,9 +16,8 @@ namespace Time
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            Services.AddMvc();
-            Services.AddSession();
-            app.UseStaticFiles();
+            services.AddMvc();
+            services.AddSession();
 
         }
 
@@ -28,7 +27,7 @@ namespace Time
             loggerFactory.AddConsole();
             app.UseMvc();
             app.UseSession();
-            
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
