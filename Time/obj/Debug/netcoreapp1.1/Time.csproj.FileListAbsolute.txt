@@ -1,0 +1,8 @@
+/home/chief/Desktop/CodingDojo/c#/Time/bin/Debug/netcoreapp1.1/Time.deps.json
+/home/chief/Desktop/CodingDojo/c#/Time/bin/Debug/netcoreapp1.1/Time.runtimeconfig.json
+/home/chief/Desktop/CodingDojo/c#/Time/bin/Debug/netcoreapp1.1/Time.runtimeconfig.dev.json
+/home/chief/Desktop/CodingDojo/c#/Time/bin/Debug/netcoreapp1.1/Time.dll
+/home/chief/Desktop/CodingDojo/c#/Time/bin/Debug/netcoreapp1.1/Time.pdb
+/home/chief/Desktop/CodingDojo/c#/Time/obj/Debug/netcoreapp1.1/Time.AssemblyInfo.cs
+/home/chief/Desktop/CodingDojo/c#/Time/obj/Debug/netcoreapp1.1/Time.dll
+/home/chief/Desktop/CodingDojo/c#/Time/obj/Debug/netcoreapp1.1/Time.pdb
