@@ -17,7 +17,7 @@ namespace Dojodachi.Controllers
         [Route("Feed")]
         public IActionResult Feed()
         {
-            static Random random = new Random();
+            Random random = new Random();
             int randomNumber = random.Next(5,11);
             int hasEated = randomNumber;
             return RedirectToAction("Index");
