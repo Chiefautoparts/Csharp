@@ -15,5 +15,22 @@ namespace quotingDojo.Controllers
         {
             return View();
         }
+        [HttpPost]
+        [Route("quote")]
+        public IActionResult AddQoute(string Name, string Context)
+        {
+            String q = $"INSERT INTO quote(Name, Context) VALUES('{Name}', '{Context}')";
+            DbConnector.Query(q);
+            return RedirectToAction("Quotes");
+
+        }
+        [HttpGet]
+        [Route("quote")]
+        public IActionResult Quote()
+        {
+            List<Dictionary<string,object>> Quote = DbConnector.Query("SELECT * FROM quote");
+            ViewBag.quotes=Quote;
+            return View();
+        }
     }
 }
