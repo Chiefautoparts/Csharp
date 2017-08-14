@@ -17,8 +17,8 @@ namespace Dojodachi
         public void ConfigureServices(IServiceCollection services)
         {
             
-            Services.AddMvc();
-            Services.AddSession();
+            services.AddMvc();
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -27,22 +27,22 @@ namespace Dojodachi
             loggerFactory.AddConsole();
             if (env.IsDevelopment())
             {
-                use.AooDeveloperExceptionPage();
+                app.UseDeveloperExceptionPage();
             }
-           app.UseMvc();
+           
            app.UseSession();
            app.UseStaticFiles();
            
 
-            app.Run(async (context) =>
+           app.UseMvc( routes => 
             {
                 routes.MapRoute(
                             name: "Default",
                             template: "",
                             defaults: new {controller = "Dojo", action = "Index"}
-                );
+                            );
             });
         }
     }
 }
-            Services.AddMvc();
+           

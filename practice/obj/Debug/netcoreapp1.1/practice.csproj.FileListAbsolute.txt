@@ -1,0 +1,4 @@
+/home/chief/Desktop/CodingDojo/c#/practice/bin/Debug/netcoreapp1.1/practice.deps.json
+/home/chief/Desktop/CodingDojo/c#/practice/bin/Debug/netcoreapp1.1/practice.runtimeconfig.json
+/home/chief/Desktop/CodingDojo/c#/practice/bin/Debug/netcoreapp1.1/practice.runtimeconfig.dev.json
+/home/chief/Desktop/CodingDojo/c#/practice/obj/Debug/netcoreapp1.1/practice.AssemblyInfo.cs

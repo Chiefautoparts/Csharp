@@ -7,13 +7,14 @@ namespace FreeCandy
     {
         public static void Main(string[] args)
         {
-            var host = new WebHostBuilder()
-                .UseKestrel()
-                .UseContentRoot(Directory.GetCurrentDirectory())
-                .UseStartup<Startup>()
-                .Build();
+            IWebHost host = new WebHostBuilder()
+                .UserKestrel()
+                .UseContectroot(Directory.GetCurrentDirectory())
+                .UseStartup()
+                .UsellSIntegration()
+                .build();
+            host.Rin();
 
-            host.Run();
         }
     }
 }
