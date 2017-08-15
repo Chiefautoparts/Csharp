@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
+using users.Models;
 
 namespace users.Controllers
 {
@@ -15,17 +16,24 @@ namespace users.Controllers
         {
             return View();
         }
-        public IActionResult Method(string Name, string Email, string Password)
+       public IActionResult Register(RegisterViewModel model)
         {
-            User NewUser = new User
+            if(ModelState.IsValid)
             {
-                Name = Name,
-                Email = Email,
-                Password = Password
-            };
-            TryValidateModel(NewUser);
-            ViewBag.errors = ModelState.Values;
-            return View();
+                User NewUser = new users
+                {
+                    Name = model.Name,
+                    Email = model.Email,
+                    Password = model.Password
+                };
+            }
+            return View(model);
+        }
+        [HttpPost]
+        [Route("blog")]
+        public IActionResult Blog()
+        {
+            List<Post> Posts = _context.Posts.INclude(Post => Post.Blog).ToList();
         }
     }
 }

@@ -1,30 +1,15 @@
-using System.ComponentModel.DataAnnotations;
+using System;
 
 namespace users.Models
 {
-    public class User
+    public class User : BaseEntity
     {
-        [Required]
-        [MinLength(3)]
-        public string Name { get; set: }
-
-        [Required]
-        [EmailAddress]
+        public int UserId { get; set; }
+        public string Name { get; set; }
         public string Email { get; set; }
-
-        [Required]
-        [DataType(DataType.Password)]
         public string Password { get; set; }
-    
-        public IActionResult Method()
-        {
-            User NewUser = new User
-            {
-                Name = "name",
-                Email = "email@email.com",
-                Password = "password"
-            };
-            TryValidateModel(NewUser);
-        }
+        public DateTime CreatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; }
+
     }
 }
