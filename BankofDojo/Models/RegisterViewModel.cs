@@ -19,7 +19,7 @@ namespace BankofDojo.Models
         public string Email { get; set; }
 
         [Required]
-        [Minlength(8)]
+        [MinLength(8)]
         [DataType(DataType.Password)]
         public string Password { get; set; }
 

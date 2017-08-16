@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using BankofDojo.Models;
 using System.Linq;
 
+
 namespace BankofDojo.Controllers
 {
     public class HomeController : Controller
@@ -23,29 +24,32 @@ namespace BankofDojo.Controllers
         {
             return View();
         }
-        public IActionResult Create()
-        {
-            User NewUser = new User{
-                FirstName = "Ronwell",
-                LastName = "Dobbs",
-                Email = "R.Dobbs@yallbrutalizin.me",
-                Password = "password"
-            };
-        }
+        // public IActionResult Create()
+        // {
+        //     User NewUser = new User{
+        //         FirstName = "Ronwell",
+        //         LastName = "Dobbs",
+        //         Email = "R.Dobbs@yallbrutalizin.me",
+        //         Password = "password"
+        //     };
+        // }
         [HttpPost]
         [Route("register")]
         public IActionResult Register(RegisterViewModel model)
         {
             if(ModelState.IsValid)
             {
-                User NewUser = new user
+                User NewUser = new account
                 {
                     FirstName = model.FirstName,
                     LastName = model.LastName,
                     Email = model.Email,
-                    Password = model.Password
+                    Password = model.Password,
+                    CretedAt = DateTime.UtcNow,
+                    UpdatedAt = DateTime.UtcNow
                 };
-                // Succes
+                _context.Add(NewUser);
+                _context.SaveChanges();
             }
             return View(model);
         }
