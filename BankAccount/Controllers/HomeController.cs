@@ -14,13 +14,10 @@ namespace BankAccount.Controllers
     {
         private readonly DbConnector _dbConnector;
         private BankContext _context;
-        public BankController(BankContext context)
-        {
-            _context = context;
-        }
+        public BankController(BankContext context) => _context = context;
 
         [HttpGet]
-        [Route("")]
+        [Route(template: "Index")]
         public IActionResult Index()
         {
             List<Dictionary<string, object>> AllUsers = _dbConnector.Query("SELECT * FROM users");
@@ -28,7 +25,6 @@ namespace BankAccount.Controllers
 
         public IActionResult Create
         {
-            get
             {
                 User NewUser = new User
                 {
@@ -47,7 +43,7 @@ namespace BankAccount.Controllers
         [Route("register")]
         public IActionResult Register(RegisterViewModel model)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 User NewUser = new User
                 {
