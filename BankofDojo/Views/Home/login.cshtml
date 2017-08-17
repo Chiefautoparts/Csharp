@@ -1,8 +1,17 @@
+@{
+    ViewData["Title"] = "Login";
+}
 <h1>Login</h1>
 <form action="Login" method="POST">
-    <input type="text"name="Email">
-    <input type="password" name="password">
-    <input type="submit" name="submit" value="Submit">
+    <fieldset>
+        Email: <input type="text"name="ValidEmail" id="ValidEmail">
+        Password: <input type="password" name="ValidPassword" id="ValidPassword">
+        <button>Login</button>
+    </fieldset>
 </form>
 
-<h3><a href="Index.cshtml">Need to Register?</a></h3>
+<h3><a href="Index">Need to Register?</a></h3>
+@if (ViewBag.message != null)
+{
+    <p>@ViewBag.message</p>
+}

@@ -46,14 +46,11 @@ namespace BankofDojo.Controllers
             else
             {
                 HttpContext.Session.SetInt32("userID", ValidUser.userID);
-                return RedirectToAction("Index", "Account", new { acountNum = HttpContext.Session.GetInt32("userID")});
+                return RedirectToAction("Show", "Account", new { TransactionNum = HttpContext.Session.GetInt32("userID")});
             }
-            
-            return View("Index");
         }
-        
         [HttpPost]
-        [Route("register")]
+        [Route("Register")]
         public IActionResult Register(RegisterViewModel model)
         {
             if (ModelState.IsValid)
@@ -79,11 +76,11 @@ namespace BankofDojo.Controllers
                 _context.SaveChanges();
                 NewUser = _context.Users.SingleOrDefault(user => user.Email == NewUser.Email);
                 HttpContext.Session.SetInt32("userID", NewUser.userID);
-                return RedirectToAction ("Index", "Account", new { TransactionNum = HttpContext.Session.GetInt32("userID")});
+                return RedirectToAction("Show", "Account", new { TransactionNum = HttpContext.Session.GetInt32("userID")});
             }
             else
             {
-                return View(model);
+                return View("Index", model);
             }
         }
         [HttpGet]
