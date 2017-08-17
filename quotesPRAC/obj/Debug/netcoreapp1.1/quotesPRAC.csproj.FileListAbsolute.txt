@@ -1,0 +1,4 @@
+/home/chief/Desktop/CodingDojo/c#/quotesPRAC/bin/Debug/netcoreapp1.1/quotesPRAC.deps.json
+/home/chief/Desktop/CodingDojo/c#/quotesPRAC/bin/Debug/netcoreapp1.1/quotesPRAC.runtimeconfig.json
+/home/chief/Desktop/CodingDojo/c#/quotesPRAC/bin/Debug/netcoreapp1.1/quotesPRAC.runtimeconfig.dev.json
+/home/chief/Desktop/CodingDojo/c#/quotesPRAC/obj/Debug/netcoreapp1.1/quotesPRAC.AssemblyInfo.cs

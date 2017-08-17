@@ -1,0 +1,6 @@
+<h1>Ye Olde Quotes</h1>
+
+    @foreach(var quote in @ViewBag.quote){
+        <h2>@quote["quote"]</h2>
+        <h3>- @quote["name"]</h3>
+    }

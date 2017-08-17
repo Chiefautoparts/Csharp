@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "Login";
+}
+<h1>Login</h1>
+<form action="Login" method="POST">
+    <fieldset>
+        Email: <input type="text"name="ValidEmail" id="ValidEmail">
+        Password: <input type="password" name="ValidPassword" id="ValidPassword">
+        <button>Login</button>
+    </fieldset>
+</form>
+
+<h3><a href="Index">Need to Register?</a></h3>
+@if (ViewBag.message != null)
+{
+    <p>@ViewBag.message</p>
+}
