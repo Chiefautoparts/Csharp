@@ -12,5 +12,7 @@ namespace BankofDojo.Models
         public string Password { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
+        public List<Transaction> Transactions { get; set; }
+
     }
 }

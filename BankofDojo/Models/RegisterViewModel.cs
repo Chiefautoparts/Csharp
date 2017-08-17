@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace BankofDojo.Models
@@ -24,6 +26,8 @@ namespace BankofDojo.Models
         public string Password { get; set; }
 
         [Compare("Password", ErrorMessage = "Passwords do not match.")]
-        public string PasswordConfirmation { get; set; }
+        [Display(Name = "Confirm")]
+        [DataType(DataType.Password)]
+        public string Confirm { get; set; }
     }
 }
