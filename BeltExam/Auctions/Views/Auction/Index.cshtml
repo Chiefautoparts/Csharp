@@ -1,0 +1,54 @@
+@{
+    ViewData["Title"] = "Login Page";
+}
+@model Auctions.Models.RegisterViewModel
+
+
+<h1>Login</h1>
+<form asp-controller="Login" asp-action="Login" method="POST">
+    <fieldset>
+        <p>
+            <label asp-for="Username"></label>
+            <input asp-for="Username">
+            <span asp-validation-for="Username"></span>
+        </p>
+        <p>
+            <label asp-for="Password"></label>
+            <input asp-for="Password">
+            <span asp-validation-for="Password"></span>
+        </p>
+        <button>Login</button>
+    </fieldset>
+</form>
+            
+<h1>Register</h1>
+<form asp-controller="Register" asp-actions="Register" method="POST">
+    <fieldset>
+        <p>
+            <label asp-for="FirstName"></label>
+            <input asp-for="FirstName">
+            <span asp-validation-for="FirstName"></span>
+        </p>
+        <p>
+            <label asp-for="LastName"></label>
+            <input asp-for="LastName">
+            <span asp-validation-for="LastName"></span>
+        </p>
+        <p>
+            <label asp-for="Username"></label>
+            <input asp-for="Username">
+            <span asp-validation-for="Username"></span>
+        </p>
+        <p>
+            <label asp-for="Password"></label>
+            <input asp-for="Password">
+            <span asp-validation-for="Password"></span>
+        </p>
+        <p>
+            <label asp-for="Confirm">Confirm Password></label>
+            <input asp-for="Confirm">
+            <span asp-validation-for="Confirm"></span>
+        </p>
+        <button>Register</button>
+    </fieldset>
+</form>
