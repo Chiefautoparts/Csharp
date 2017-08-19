@@ -1,0 +1,27 @@
+@{
+    ViewData["Title"] = "Current Auctions"
+}
+@model Auctions.Models.Item
+
+<h1>Current Auctions</h1>
+<h4>Hi @ViewBag.ValidName</h4>
+
+<table>
+    <thead>
+        <tr>
+            <td>Product</td>
+            <td>Seller</td>
+            <td>Top Bid</td>
+            <td>Time Remaining</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in @ViewBag.AllItems)
+        {
+            <tr>
+                <td>@string.Format(Item.Name)</td>
+                <td>@ViewBag.UserItem</td>
+                <td>@bought(Item.Price)</td>
+                <td>@ViewBag.TimeLeft</td>
+
+        }  
