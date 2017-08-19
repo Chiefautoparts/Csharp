@@ -1,7 +1,7 @@
 using System.IO;
 using Microsoft.AspNetCore.Hosting;
 
-namespace pokeInfo
+namespace PokeDex
 {
     public class Program
     {

@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 
-namespace pokeInfo.Controllers
+namespace PokeDex.Controllers
 {
     public class HomeController : Controller
     {
@@ -27,6 +27,8 @@ namespace pokeInfo.Controllers
             ).Wait();
             ViewBag.PokeInfo = PokeInfo;
             return View();
+    // Other code
         }
+
     }
 }
