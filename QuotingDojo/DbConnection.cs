@@ -1,7 +1,9 @@
+using System;
 using System.Collections.Generic;
 using System.Data;
 using Microsoft.SqlServer.Server;
 using MySql.Data.MySqlClient;
+
 
 namespace DbConnection
 {
@@ -41,7 +43,9 @@ namespace DbConnection
                 }
             }
         }
-        public static void Excute(string queryString)
+
+    
+        public static void Execute(string queryString)
         {
             using (IDbConnection dbConnection = Connection)
             {

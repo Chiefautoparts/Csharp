@@ -1,7 +1,7 @@
 using System.IO;
 using Microsoft.AspNetCore.Hosting;
 
-namespace PokeDex
+namespace Eatery
 {
     public class Program
     {
@@ -11,7 +11,6 @@ namespace PokeDex
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseStartup<Startup>()
-                .UseIISIntegration()
                 .Build();
 
             host.Run();

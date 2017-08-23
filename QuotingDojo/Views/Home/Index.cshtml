@@ -1,5 +1,12 @@
 @{
     ViewData["Title"] = "Home Page";
 }
-<h1>Default Blank Page~</h1>
-<p>Get to adding stuff</p>
+<h1>Time For Some QUOOOOOOOOOOOOTES</h1>
+<form action="/quotes" method="POST">
+    <label for="name">Quote Author</label>
+    <input type="text" name="name" id="name">
+    <label for="content">Quote: </label>
+    <input type="textfield" name="content">
+    <button type=submit>Add Quote</button>
+    <a href="/quotes"><button type="submit">Skip to Quotes</button></a>
+</form>

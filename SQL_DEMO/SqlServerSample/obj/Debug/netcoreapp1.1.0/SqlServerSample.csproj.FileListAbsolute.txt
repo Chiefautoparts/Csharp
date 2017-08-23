@@ -1,0 +1,4 @@
+/home/chief/Desktop/CodingDojo/c#/SQL_DEMO/SqlServerSample/bin/Debug/netcoreapp1.1.0/SqlServerSample.deps.json
+/home/chief/Desktop/CodingDojo/c#/SQL_DEMO/SqlServerSample/bin/Debug/netcoreapp1.1.0/SqlServerSample.runtimeconfig.json
+/home/chief/Desktop/CodingDojo/c#/SQL_DEMO/SqlServerSample/bin/Debug/netcoreapp1.1.0/SqlServerSample.runtimeconfig.dev.json
+/home/chief/Desktop/CodingDojo/c#/SQL_DEMO/SqlServerSample/obj/Debug/netcoreapp1.1.0/SqlServerSample.AssemblyInfo.cs
