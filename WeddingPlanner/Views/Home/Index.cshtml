@@ -1,5 +1,19 @@
 @{
     ViewData["Title"] = "Home Page";
 }
-<h1>Default Blank Page~</h1>
-<p>Get to adding stuff</p>
+<h1>Login</h1>
+<form asp-action="register" metho="POST">
+    <label name="FirstName">First Name: </label>
+    <input type="text" name="FirstName">
+    <label name="LastName">Last Name: </label>
+    <input type="text" name="LastName">
+    <label name="Age">Age: </label>
+    <input type="text" name="Age">
+    <label name="Email">Email: </label>
+    <input type="text" name="Email">
+    <label name="Password">Password: </label>
+    <input type="password" name="Password">
+    <label name="ConfirmPassword">Confirm Password: </label>
+    <input type="password" name="ConfirmPassword">
+    <button>Register</button>
+</form>
