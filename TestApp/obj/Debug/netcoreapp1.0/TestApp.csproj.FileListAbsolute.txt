@@ -1,0 +1,8 @@
+/home/chief/Desktop/CodingDojo/c#/TestApp/bin/Debug/netcoreapp1.0/TestApp.deps.json
+/home/chief/Desktop/CodingDojo/c#/TestApp/bin/Debug/netcoreapp1.0/TestApp.runtimeconfig.json
+/home/chief/Desktop/CodingDojo/c#/TestApp/bin/Debug/netcoreapp1.0/TestApp.runtimeconfig.dev.json
+/home/chief/Desktop/CodingDojo/c#/TestApp/bin/Debug/netcoreapp1.0/TestApp.dll
+/home/chief/Desktop/CodingDojo/c#/TestApp/bin/Debug/netcoreapp1.0/TestApp.pdb
+/home/chief/Desktop/CodingDojo/c#/TestApp/obj/Debug/netcoreapp1.0/TestApp.AssemblyInfo.cs
+/home/chief/Desktop/CodingDojo/c#/TestApp/obj/Debug/netcoreapp1.0/TestApp.dll
+/home/chief/Desktop/CodingDojo/c#/TestApp/obj/Debug/netcoreapp1.0/TestApp.pdb

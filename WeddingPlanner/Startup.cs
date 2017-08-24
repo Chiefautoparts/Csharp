@@ -2,10 +2,10 @@ using System;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Form.Models;
-using MySql.Data.EntityFrameworkCore.Extensions;
+using WeddingPlanner.Models;
+using MySQL.Data.EntityFrameworkCore.Extensions;
 
-namespace Form
+namespace WeddingPlanner
 {
     public class Startup
     {
@@ -15,7 +15,7 @@ namespace Form
             // Add framework services.
             services.AddMvc();
             services.AddSession();
-            services.AddDbContext<UserContext>options => options.UseMySQL(Configuration["DBInfo:ConnectionString"]));
+            services.AddDbContext<UserContext>(options => options.UseMySQL(Configuration["DBInfo:ConnectionString"]));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
