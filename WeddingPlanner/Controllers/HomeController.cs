@@ -13,10 +13,11 @@ namespace WeddingPlanner.Controllers
     public class HomeController : Controller
     {
         private WeddingContext _context;
-        public HomeController(WeddingContext context) => _context = context;
+        public HomeController(WeddingContext context)
+        {
+            _context = context;
+        }
 
-    
-        // GET: /Home/
         [HttpGet]
         [Route("")]
         public IActionResult Index()
@@ -25,7 +26,7 @@ namespace WeddingPlanner.Controllers
         }
         [HttpPost]
         [Route("Register")]
-        public IActionResult Register()
+        public IActionResult Register(User newUser)
         {
             if (ModelState.IsValid)
             {
@@ -33,29 +34,34 @@ namespace WeddingPlanner.Controllers
                 if (UserExists != null)
                 {
                     ViewBag.Message = "Email already Registered";
-                    return View("Index", model);
+                    return View("Index", wedding);
                 }
                 PasswordHasher<User> Hasher = new PasswordHasher<User>();
                 User NewUser = new User
                 {
-                    FirstName = model.FirstName,
-                    LastName = model.LastName,
-                    Email = model.Email,
-                    Password = model.Password,
-                    CreatedAt = DateTime.UtcNow,
-                    UpdatedAt = DateTime.UtcNow
+                    FirstName = newUser.FirstName,
+                    LastName = newUser.LastName,
+                    Email = newUser.Email,
+                    Password = newUser.Password,
+                    CreatedAt = DateTime.Now,
                 };
                 NewUser.Password = Hasher.HashPassword(NewUser, NewUser.Password);
                 _context.Add(NewUser);
                 _context.SaveChanges();
                 NewUser = _context.Users.SingleOrDefault(user => user.Email == NewUser.Email);
-                HttpContext.Session.SetInt32("userID", NewUser.userID);
-                
+                HttpContext.Session.SetInt32("userID", NewUser.UserID);
+                return View("Index");
+
             }
             else
             {
-                return View("Index", model);
+                return View("Index");
             }
+        }
+
+        private IActionResult View(string v, object wedding)
+        {
+            throw new NotImplementedException();
         }
     }
 }
